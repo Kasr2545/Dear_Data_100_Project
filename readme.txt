@@ -1,1 +1,3 @@
-this project is a portfolio for the creative coding module
+This project is a portfolio for the Creative Coding module.
+
+This repository will be filled agter the creative coding module has started.
