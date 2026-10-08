@@ -1,1 +1,12 @@
-This is where all my plannign will be doen and recorded.
+This is where all my planning will be done and recorded.
+Ideas that I have had for the Dear Data Project are:
+
+1. Record sounds I hear. What kind of sounds. If those sounds
+   are human produced or machine.
+
+2. Record all conversations I have. The peopel I have a conversation with.
+   what the conversation is about (work, uni, personal, stranger.)
+
+3. Record the kind of music I listen to. This may include type (genre), time of day,
+   reason for listening. What I am doing whilst listening.
+   
