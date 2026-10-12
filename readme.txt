@@ -9,4 +9,5 @@ and get detail, this will be done in (Plan.txt).
 When I do start recording data, 
 I will be using a excel or a csv file to record data.
 
-Next is to add key and finalise all the different data for  intewractiosn i have.
+Next is to add key and finalise all the different data for interactiosn i have. This will be done
+in Plan.txt file.
