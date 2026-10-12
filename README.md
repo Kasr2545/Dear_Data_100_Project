@@ -1,15 +1,8 @@
 # READ ME
 
-This project is a portfolio for the Creative Coding module.
+Project title: Dear Data 100 Portfolio Project
 
-I have created a new file (Plan.txt) this is where all my planning wil be done.
+This is a personal project to collect data about my self and display it in a artistic format using the Java IDE Processing.
 
-I have finalised my project idea. I will be collecting data on
-all interactions I have. I am going to add a key which is how I break up my data 
-and get detail, this will be done in (Plan.txt).
-
-When I do start recording data, 
-I will be using a excel or a csv file to record data.
-
-Next is to add key and finalise all the different data for interactiosn i have. This will be done
-in Plan.txt file.
+Description:
+I have chosen to collect data on interactions I have with people.
