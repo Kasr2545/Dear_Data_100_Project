@@ -10,3 +10,14 @@ Ideas that I have had for the Dear Data Project are:
 3. Record the kind of music I listen to. This may include type (genre), time of day,
    reason for listening. What I am doing whilst listening.
    
+After concideration I will be collecting data on the interactions I have 
+with people.
+
+This Includes:
+ - Initiator (one who started conversation)
+ - Location (Where did this conversation take place)
+ - Reason for conversation (General chit-chat, asking for help, gamin with friends, etc.)
+ - People included in the conversation (Friend --> Fri, Family --> Fam, Lecturers/Tutors --> Lec/Tut etc.) 
+ - Date/Time (12/10/26  18:08)
+ - Method (Verbal, Message, Phonecall, Meeting)
+ - Length of Conversation (15 mins  )
