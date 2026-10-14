@@ -12,3 +12,8 @@ I have chosen to collect data on interactions I have with people.
 -Rainbow makes the 'Dear Data Project.csv' clear to read. 
 -The CSV Edit extention is so th eraw data in CSV fiel can be seen in graph format. To use this extention please press 'Edit CSV'
  on 'Dear Data Project.csv' or open file on github to view graph.
+
+ How to read CSV file:
+ - Use Edit CSV button, top right next to run button. THis fill allow you to view CSv file in a graph format for easier undersatnding
+
+ +Need to add info on how to understand data table
