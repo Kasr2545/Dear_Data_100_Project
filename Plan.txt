@@ -29,18 +29,19 @@ Specifically Stefanie Posavec, where here data ended up looking like a Snowflake
 
  S - When presenting data we normaly present it in an easy to understand way. Such as graphs with lables or tables with data inside of them.
      So instead we are going to go for more of an artistic viewpoint that works the same way as graphs do just a bit different. Instead of 
-     having string text or integers we will be using pixels, colours, shapes and movemnet to discibe the data. This will also include a key
-     to help decipher and understand the data.
+     having string text or integers I will be trying to substitue string and numerical data for Gravitational Boidies like plantes, moons and stars.
 
- C - Since my data also includes data of my location. One idea I have is that my data can be a spiral. Where each circle represents a location.
-     
+ C - Then I  will combine this into an orbital System to create space with multiple solar systems. Initiators will be the central star. then the other data can be 
+     the orbit lines, planets and pottentially moons and colours.
 
- A - 
+ A - I would like to adapt how plants grow through Asexual Reproduction. They have 1 parent cell which divides to producr 2 identicle daughter cells. I woudl like
+     for my starts and planets to appear and grow in the same whay until a planet is formed.
 
- M - 
+ M - To modify it, as mentioned before their will be colours, and this will change each time as i can set certain varibales to randomly generate colours, so it makes 
+     it so each time the program is run the program then makes it so the colours are different each time. 
  
- P - 
+ P - This can be repurposed for other sorts fo data as well. Such as the number of times they see a vehicle, or their method of transportation.
  
- E - 
+ E - What I can definatley remove is extreme artistic data, this means having craters on moon or showing land on planets, Unless I import images then it may not be as much of an issue.
  
- R - 
+ R - If I was to revers this. The data woudl be presented As I would like it to but eventually just slowly fade away as it goes to the black.
