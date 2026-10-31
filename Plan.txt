@@ -45,3 +45,51 @@ Specifically Stefanie Posavec, where here data ended up looking like a Snowflake
  E - What I can definatley remove is extreme artistic data, this means having craters on moon or showing land on planets, Unless I import images then it may not be as much of an issue.
  
  R - If I was to revers this. The data woudl be presented As I would like it to but eventually just slowly fade away as it goes to the black.
+
+
+ Complete Idea Structure (Solar System):
+
+Main Background:
+    - Generate black background for space.
+    - Generate white pixels to show starst far away in the distance that appear randomly.
+
+Main Star Formation:
+
+    The Size Of Star:
+        - Have a predetermined radius value of (500-700) - To Be Decided
+        - Use the initator column for star.
+        - Calculate the percentage of the number of times each data value in Column 1 key appears.
+        - This percentage will then be multiplied by the predetermined star radius value. This will make stars for each value in the key for initiators.
+    
+    Colour Of Star:
+        - Take the Predetermined radius and calculate the boundaries for 0%-33%, 33%-66%, 66%-100%.
+        - Based on size of star;
+            - If radius of star is in 0% - 33% boundary 
+                -The star should be a glowy red.
+            - If radius of star is in 33% - 66% boundary
+                - Glowy Blue-White-Yellow Pixelated Star
+            - If Radius of star os in 66% - 100% boundary 
+                - Glowy yellow orange sun.
+    
+    Position Of Star:
+        - It will be randomly scattered on the page.
+
+Main Planet Formation:
+
+    The Size Of Planets:
+        - Have a predetermined radius value of ( 200-300 ) - To Be Decided
+        - Use the Location Column for planets.
+        - Calculate ther percentage of the number of times each location appears in Column 2.
+        - This percentage will then be multiplied by the Predetermined Planet radius size. This will make planets for each value.
+
+    Colour Of Planet:
+        - This will be based on reason
+        - Column 4 based on the key data value - it will affect the Alpha value affecting the opacity.
+
+    Design on planet:
+        - Based on Column 7 - this will determin the patter drawn onto the palnet.
+
+    Planet movement And Position:
+        - Position is based on the percentage value of the size. the more frequently that data value appears the colser it is to the sun. Then vice versa as well.
+        - Movement Orbit speed may be based on the time. Based on which quarter of the time (12-3, 3-6, 6,9, 9-12) it lands on it dictates the orbit speed.    
+
