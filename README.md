@@ -37,7 +37,8 @@ Column 2: My Loaction at the time interaction.
     Home       - H
     Road       - R
     Stratford  - S
-    work       - W
+    Ilford     - I
+    Work       - W
 
 Column 3: Reason for conversation.
     Key:
