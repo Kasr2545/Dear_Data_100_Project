@@ -114,8 +114,8 @@ Me,H,gcc,fam,21/10/2026,10:17,verbal
 Me,H,gcc,fam,21/10/2026,13:04,verbal
 Me,H,gcc,fri,21/10/2026,14:25,text
 Me,H,bye,fam,21/10/2026,15:30,verbal
-Me,R,Hello,DI,21/10/2026,18:00,verbal
-Me,R,Bye,DI,21/10/2026,18:26,verbal
+Me,I,Hello,DI,21/10/2026,18:00,verbal
+Me,I,Bye,DI,21/10/2026,18:26,verbal
 Me,H,Hello,fam,21/10/2026,18:39,verbal
 Fri,H,gcc,fri,21/10/2026,19:12,call
 Fam,H,gcc,fam,21/10/2026,20:30,verbal
