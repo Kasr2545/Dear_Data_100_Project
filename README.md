@@ -49,10 +49,13 @@ Column 3: Reason for conversation.
     Bye               - B
     Question          - Q
     ESports Soc       - ESOC
-    Help              - h
+    Help              - HE
     Totorial          - T
     Goodnight         - GN
     Movies            - M
+    Food (ALL)        - F
+    Reminder          - R
+    Work              - W
 
 Column 4: People on reciving end or invloved in Interaction.
     Key:

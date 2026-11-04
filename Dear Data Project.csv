@@ -1,61 +1,61 @@
 ﻿Interactions:,,,,,,
 Initiator:,Location,Reason,People:,Date/Time,Time,Method
-Fri,U,General  Chit chat ,Friends,12/10/2026,08:30,Verbal
-Lec,U,Lec -  math,Lec,12/10/2026  ,09:00,Verbal
-Tut,U,Tutor - math,Tutor,12/10/2026  ,11:00,Verbal
-Me,U,General  Chit chat ,Friends,12/10/2026  ,12:10,Text
-Me,U,Asking for lunch,LS,12/10/2026,12:23,Verbal
-Me,U,Texting an old friend,Friend,12/10/2026,13:13,Text
-Tut,U,Lec - cc,Lec,12/10/2026,15:00,Verbal
-Me,H,Hello,Fam,12/10/2026,17:10,Verbal
-Me ,H,Family/ Guest,Guest,12/10/2026,19:30,Verbal
-Fam,H,Hellp,Fam,12/10/2026 ,21:00,verbal
-Me,H,Hello,Fam,13/10/2026,07:20,verbal
-Lec,U,Lecture,lec,13/12/2026,09:00,verbal
-Lec,U,Lecture,Lec,13/12/2026,10:00,verbal
-Fri,U,Hello,Fri,13/10/2026,11:32,verbal
-Lec,U,Lecture,Lec,13/10/2026,15:00,Teams Meeting
-Lec,U,Lecture,Lec,13/10/2026,16:00,Verbal
-Me,U,Bye,Fri,13/10/2026,17:23,verbal
-Me,H,Hello,Fam,13/10/2026,18:10,verbal
-Fam,H,Help,Fam,13/10/2026,20:46,verbal
-Fam,H,Night,Fam,13/10/2026,22:28,verbal
-Fam,H,Question,Fam,14/10/2026,11:23,verbal
-Fam,H,Reminder,Fam,14/10/2026,14:32,Verbal
-Me,H,Reminder,Fam,14/10/2026,16:13,Verbal
-Fam,H,Help,Fam,14/10/2026,18:53,Verbal
-Me,H,General chit chat,Fam,14/10/2026,20:24,Verbal
-Fam,H,General chitchat,Friend,14/10/2026,21:27,Call
-Me,H,Gen CHi CHat,fam,15/10/2026,11:30,verbal
-Me,H,bye,fam,15/10/2026,13:59,verbal
-Lec,U,Lecture,Lec,15/10/2026,15:00,verbal
-Me,U,gen chit chat,fri,15/10/2026,16:09,verbal
-Me,U,gen chit chat,fri,15/10/2026,16:27,verbal
-Fri,U,gcc,fri,15/10/2026,16:38,verbal
-Fri,U,Lecture,lec,15/10/2026,17:00,verbal
-Me,U,ESports soc,soc,15/10/2026,18:12,verbal
-Me,U,ESports soc,fri,15/10/2026,18:45,verbal
-Fri,U,ESports soc,fri,15/10/2026,19:23,verbal
-Me,U,ESports soc,fri,15/10/2026,20:32,verbal
-Me,H,gen chit chat,fri,15/10/2026,21:04,verbal
-Me,H,gcc,fam,15/10/2026,22:03,verbal
-Fam,H,gcc,fam,15/10/2026,23:04,verbal
-Me,U,gcc,fri,16/10/2026,09:38,text
-Lec,U,Tutorial,lec,16/10/2026,10:00,verbal
-Me,U,help,fri,16/10/2026,11:13,verbal
-Fri,U,help,fri,16/10/2026,11:45,verbal
-Lec,U,Lec,lec,16/10/2026,13:00,verbal
-Me,U,help,fir,16/10/2026,14:23,verbal
-Fri,U,help,fri,16/10/2026,14:45,verbal
-Fri,U,help,fri,16/10/2026,14:56,verbal
-CW,W,work,cw,16/10/2026,18:00,verbal
-CW,W,help,cw,16/10/2026,19:52,verbal
-CW,W,help,cw,16/10/2026,20:04,verbal
-Fam,W,work,cw,16/10/2026,20:23,verbal
-Fam,W,bye,cw,16/10/2026,21:00,verbal
-Me,H,hello,fam,16/10/2026,22:03,verbal
-Fam,H,help,fam,16/10/2026,23:32,verbal
-Fam,H,gcc,fam,17/10/2026,09:24,verbal
+Fri,U,GCC,Friends,12/10/2026,08:30,Verbal
+Lec,U,L,Lec,12/10/2026  ,09:00,Verbal
+Tut,U,T,Tutor,12/10/2026  ,11:00,Verbal
+Me,U,GCC,Friends,12/10/2026  ,12:10,Text
+Me,U,LU,LS,12/10/2026,12:23,Verbal
+Me,U,GCC,Friend,12/10/2026,13:13,Text
+Tut,U,L,Lec,12/10/2026,15:00,Verbal
+Me,H,H,Fam,12/10/2026,17:10,Verbal
+Me ,H,GCC,Guest,12/10/2026,19:30,Verbal
+Fam,H,HE,Fam,12/10/2026 ,21:00,verbal
+Me,H,H,Fam,13/10/2026,07:20,verbal
+Lec,U,L,lec,13/12/2026,09:00,verbal
+Lec,U,L,Lec,13/12/2026,10:00,verbal
+Fri,U,H,Fri,13/10/2026,11:32,verbal
+Lec,U,L,Lec,13/10/2026,15:00,Teams Meeting
+Lec,U,L,Lec,13/10/2026,16:00,Verbal
+Me,U,B,Fri,13/10/2026,17:23,verbal
+Me,H,H,Fam,13/10/2026,18:10,verbal
+Fam,H,HE,Fam,13/10/2026,20:46,verbal
+Fam,H,GCC,Fam,13/10/2026,22:28,verbal
+Fam,H,Q,Fam,14/10/2026,11:23,verbal
+Fam,H,R,Fam,14/10/2026,14:32,Verbal
+Me,H,R,Fam,14/10/2026,16:13,Verbal
+Fam,H,HE,Fam,14/10/2026,18:53,Verbal
+Me,H,GCC,Fam,14/10/2026,20:24,Verbal
+Fam,H,GCC,Friend,14/10/2026,21:27,Call
+Me,H,GCC,fam,15/10/2026,11:30,verbal
+Me,H,B,fam,15/10/2026,13:59,verbal
+Lec,U,L,Lec,15/10/2026,15:00,verbal
+Me,U,GCC,fri,15/10/2026,16:09,verbal
+Me,U,GCC,fri,15/10/2026,16:27,verbal
+Fri,U,GCC,fri,15/10/2026,16:38,verbal
+Fri,U,L,lec,15/10/2026,17:00,verbal
+Me,U,ESOC,soc,15/10/2026,18:12,verbal
+Me,U,ESOC,fri,15/10/2026,18:45,verbal
+Fri,U,ESOC,fri,15/10/2026,19:23,verbal
+Me,U,ESOC,fri,15/10/2026,20:32,verbal
+Me,H,GCC,fri,15/10/2026,21:04,verbal
+Me,H,GCC,fam,15/10/2026,22:03,verbal
+Fam,H,GCC,fam,15/10/2026,23:04,verbal
+Me,U,GCC,fri,16/10/2026,09:38,text
+Lec,U,T,lec,16/10/2026,10:00,verbal
+Me,U,HE,fri,16/10/2026,11:13,verbal
+Fri,U,HE,fri,16/10/2026,11:45,verbal
+Lec,U,L,lec,16/10/2026,13:00,verbal
+Me,U,HE,fir,16/10/2026,14:23,verbal
+Fri,U,HE,fri,16/10/2026,14:45,verbal
+Fri,U,HE,fri,16/10/2026,14:56,verbal
+CW,W,W,cw,16/10/2026,18:00,verbal
+CW,W,HE,cw,16/10/2026,19:52,verbal
+CW,W,HE,cw,16/10/2026,20:04,verbal
+Fam,W,W,cw,16/10/2026,20:23,verbal
+Fam,W,B,cw,16/10/2026,21:00,verbal
+Me,H,H,fam,16/10/2026,22:03,verbal
+Fam,H,HE,fam,16/10/2026,23:32,verbal
+Fam,H,GCC,fam,17/10/2026,09:24,verbal
 Fam,H,gcc,fam,17/10/2026,10:43,verbal
 Me,H,gcc,fri,17/10/2026,11:02,text
 Fri,H,help,fri,17/10/2026,13:23,verbal
