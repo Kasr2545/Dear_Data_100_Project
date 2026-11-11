@@ -62,7 +62,7 @@ Column 4: People on reciving end or invloved in Interaction.
 
     Friends            - Fri
     Lecturer           - Lec
-    Tutorial           - Tut
+    Tutorial Lecturer          - Tut
     Me                 - Me
     Familty            - Fam
     Co-worker          - CW 
