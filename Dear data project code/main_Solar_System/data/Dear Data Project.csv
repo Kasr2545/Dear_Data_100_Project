@@ -81,7 +81,7 @@ Me,H,GCC,Fri,C
 Fri,H,GCC,Fri,C
 Me,H,GN,Fam,V
 Lec,U,L,Lec,V
-tut,U,T,Tut,V
+Tut,U,T,Tut,V
 Me,U,GCC,Fri,V
 Fri,U,GCC,Fri,V
 Fri,U,HE,Fri,V
@@ -169,7 +169,7 @@ Fri,H,GCC,Fri,C
 Fri,H,GCC,Fri,T
 Me,H,GCC,Fri,V
 Me,H,GN,Fam,V
-Lecture,U,L,S,V
+Lec,U,L,S,V
 Me,U,GCC,Fri,V
 Tut,U,T,S,V
 Me,U,B,Fri,V
