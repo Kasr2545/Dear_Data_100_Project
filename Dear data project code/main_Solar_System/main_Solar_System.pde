@@ -7,14 +7,23 @@ float[] farStarX = new float[farStarCount]; // store random numbers to be used a
 float[] farStarY = new float[farStarCount]; // store random numbers to be used as y-axis Values.
 
 // these are all count variables for the different stars
-String FriCount;
-String LecCount;
-String TutCount;
-String MeCount;
-String FamCount;
-String CWCount;
-String DICount;
-String LSCount;
+int FriCount;
+int LecCount;
+int TutCount;
+int MeCount;
+int FamCount;
+int CWCount;
+int LSCount;
+int Total_Count;
+
+//this is where the percentage value is stored
+float FriPct;
+float LecPct;
+float TutPct;
+float MePct;
+float FamPct;
+float CWPct;
+float LSPct;
 
 void setup()
 {
