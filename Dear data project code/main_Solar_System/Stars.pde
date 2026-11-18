@@ -4,4 +4,11 @@ class Stars{
   float x, y;          // This is x and y coordinates for the satr
   color col;           // This is so a colour can be created and then stored
   float StarRadius;    // This si where the actual radius of each star will be stored  
+
+  Stars(float decimal, float x, float y) {
+    // 'this.' makes it so it refers to the current object instance.
+    this.decimal=decimal;
+    this.x=x;
+    this.y=y;
+  }
 }
