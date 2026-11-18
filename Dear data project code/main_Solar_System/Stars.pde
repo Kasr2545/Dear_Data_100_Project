@@ -10,5 +10,23 @@ class Stars{
     this.decimal=decimal;
     this.x=x;
     this.y=y;
+
+    // this will dictate colour of sun based on its size
+    StarRadius = (decimal * diameter)/3;
+
+    //if statemnt to determine colour for Star object instance
+    if (decimal <= 0.1)
+    {
+      // This is a crimson red to represent dwarf stars as they are small
+      col = color(255, 25, 35);
+    } else if (decimal<=0.3)
+    {
+      // This colour is more of the standard Goldish/Yellow-Orange Sun
+      col = color(255, 185, 0);
+    } else
+    {
+      // This Colour is more of a azure blue
+      col = color(0, 128, 255);
+    }
   }
 }
