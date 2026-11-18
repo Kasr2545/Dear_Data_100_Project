@@ -29,4 +29,22 @@ class Stars{
       col = color(0, 128, 255);
     }
   }
+
+  // This is a method to give the Star a glowing effect.
+  void glow()
+  {
+    pushStyle();                               // Saves the current drawing settings
+    // outer glow - It tkes the RGB values from 'col'
+    fill(red(col), green(col), blue(col), 2);  // 5 makes high transparancy
+    circle(x, y, StarRadius * 2.5);            // makes it so radius is 2.5x larger than original
+
+    // middle glow - It tkes the RGB values from 'col'
+    fill(red(col), green(col), blue(col), 5);  // 15 makes it less transparant compared to 5
+    circle(x, y, StarRadius * 1.6);            // makes it so radius is 1.6x larger than original
+
+    // inner glow - It tkes the RGB values from 'col'
+    fill(red(col), green(col), blue(col), 10); // 35 makes it less transparant compared to 15
+    circle(x, y, StarRadius * 1.2);            // makes it so radius is 1.2x larger than original
+    popStyle();                                // Restores any previous settings
+  }
 }
