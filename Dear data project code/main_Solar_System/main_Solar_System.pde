@@ -76,6 +76,17 @@ void draw()
     fill(255); //makes star white
     ellipse(farStarX[i], farStarY[i], 0.1, 0.1); // creates the star using the random x and y values, with a size of 0.1 hight and width
   }
+
+  // calls the display() method for each Star object
+  // each object executes the same method using its own instance variables
+  // such as its percentage and x/y coordinates.
+  FriStar.display();
+  LecStar.display();
+  TutStar.display();
+  MeStar.display();
+  FamStar.display();
+  CWStar.display();
+  LSStar.display();
 }
 
 //calculates the percentage value for the number of times a data point appears in the initiator column
