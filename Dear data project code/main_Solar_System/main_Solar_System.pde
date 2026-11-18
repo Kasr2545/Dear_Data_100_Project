@@ -149,13 +149,13 @@ void calculateStarPercentages()
     println("Total Data Items: " + Total_Count);
     
   // Calculates the percentage value in decimal format between 0-1 
-    float FriPct = (float) FriCount / Total_Count;
-    float LecPct = (float) LecCount / Total_Count;
-    float TutPct = (float) TutCount / Total_Count;
-    float MePct = (float) MeCount/ Total_Count;
-    float FamPct = (float) FamCount / Total_Count;
-    float CWPct = (float) CWCount / Total_Count;
-    float LSPct = (float) LSCount / Total_Count;
+  FriPct = (float)FriCount / Total_Count;
+  LecPct = (float)LecCount / Total_Count;
+  TutPct = (float)TutCount / Total_Count;
+  MePct = (float)MeCount / Total_Count;
+  FamPct = (float)FamCount / Total_Count;
+  CWPct = (float)CWCount / Total_Count;
+  LSPct = (float)LSCount / Total_Count;
     
   // Prints the full percentage value
     println("Friends: " + FriPct*100 + "%");
