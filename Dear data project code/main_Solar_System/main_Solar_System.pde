@@ -25,6 +25,15 @@ float FamPct;
 float CWPct;
 float LSPct;
 
+// This declares that thier is a object 'XXXStar', and it is an object instance of the class Star.
+Stars FriStar;
+Stars LecStar;
+Stars TutStar;
+Stars MeStar;
+Stars FamStar;
+Stars CWStar;
+Stars LSStar;
+
 void setup()
 {
   // this is the data being loaded into a varibale called table
