@@ -47,4 +47,12 @@ class Stars{
     circle(x, y, StarRadius * 1.2);            // makes it so radius is 1.2x larger than original
     popStyle();                                // Restores any previous settings
   }
+
+  // This method renders the Star.
+  void display() {
+    noStroke();               // Removes any outlines
+    glow();                   // Calls on the glow method
+    fill(col);                // It makes the Star the colour using col from if loop
+    circle(x, y, StarRadius); // This renders the image for The star
+  }
 }
