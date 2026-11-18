@@ -47,6 +47,8 @@ void setup()
     farStarX[i]=random(width); //generates random Y position for farStarX[i]
     farStarY[i]=random(height); //generates random Y position for farStarY[i]
   }
+
+  calculateStarPercentages(); //calls on the method to calculate the percentage values for each data point
 }
 
 void draw()
