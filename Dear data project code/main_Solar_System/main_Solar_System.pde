@@ -88,6 +88,17 @@ void draw()
   FamStar.display();
   CWStar.display();
   LSStar.display();
+  // Checks whether the mouse is hovering over each Star object
+  // Passes the Star object, its name and its percentage value
+  // into the checkHoverOnStar() method.
+  checkHoverOnStar(FriStar, "Friends", FriPct);
+  checkHoverOnStar(LecStar, "Lecturers", LecPct);
+  checkHoverOnStar(TutStar, "Tutorials", TutPct);
+  checkHoverOnStar(MeStar, "Me", MePct);
+  checkHoverOnStar(FamStar, "Family", FamPct);
+  checkHoverOnStar(CWStar, "Co-workers", CWPct);
+  checkHoverOnStar(LSStar, "Lunch Staff", LSPct);
+
 }
 
 //calculates the percentage value for the number of times a data point appears in the initiator column
