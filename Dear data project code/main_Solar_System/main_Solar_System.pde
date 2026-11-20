@@ -75,7 +75,7 @@ void draw()
   for (int i=0; i<farStarCount; i++) //goes through every farStarCount value
   {
     fill(255); //makes star white
-    ellipse(farStarX[i], farStarY[i], 0.1, 0.1); // creates the star using the random x and y values, with a size of 0.1 hight and width
+    ellipse(farStarX[i], farStarY[i], 1.5, 1.5); // creates the star using the random x and y values, with a size of 0.1 hight and width
   }
 
   // calls the display() method for each Star object
