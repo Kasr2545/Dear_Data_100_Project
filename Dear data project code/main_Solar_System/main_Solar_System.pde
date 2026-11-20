@@ -207,6 +207,8 @@ void checkHoverOnStar(Stars s, String name, float pct)
     hovering=true; // sets hovering to true if the mouse is within the radius of the star
     //println("Star Name: "+name); // Checks to see if the corect star name is being printed
     //println(StarPct*100+"%"); // Checks to see if the corect star percentage is being printed
+    StarInfoBlock(s,StarName, StarPct);// Calling the Star infro block, so it shwos the correct info for each star when hovered on
+  
   }
 }
 
