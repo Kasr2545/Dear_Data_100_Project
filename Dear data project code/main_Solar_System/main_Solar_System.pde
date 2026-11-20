@@ -60,13 +60,13 @@ void setup()
   calculateStarPercentages(); //calls on the method to calculate the percentage values for each data point
 
   // This calls the constructor method for Star and stored it in a Star object.
-  FriStar = new Stars(FriPct, 250, 200);
-  LecStar = new Stars(LecPct, 650, 200);
-  TutStar = new Stars(TutPct, 1050, 200);
-  MeStar = new Stars(MePct, 1300, 200);
-  FamStar = new Stars(FamPct, 1450, 600);
-  CWStar = new Stars(CWPct, 750, 600);
-  LSStar = new Stars(LSPct, 1250, 600);
+  MeStar  = new Stars(MePct, 250, 400);
+  FamStar = new Stars(FamPct, 650, 400);
+  FriStar = new Stars(FriPct, 850, 400);
+  LecStar = new Stars(LecPct, 1000, 400);
+  TutStar = new Stars(TutPct, 1160, 400);
+  CWStar  = new Stars(CWPct, 1300, 400);
+  LSStar  = new Stars(LSPct, 1400, 400);
 }
 
 void draw()
