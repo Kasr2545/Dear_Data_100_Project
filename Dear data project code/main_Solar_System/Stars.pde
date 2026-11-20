@@ -12,7 +12,7 @@ class Stars{
     this.y=y;
 
     // this will dictate colour of sun based on its size
-    StarDiameter = (decimal * maxDiameter)/2;
+    StarDiameter = (decimal * maxDiameter);
 
     //if statemnt to determine colour for Star object instance
     if (decimal <= 0.1)
