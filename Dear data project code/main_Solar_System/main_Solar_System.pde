@@ -197,3 +197,31 @@ void checkHoverOnStar(Stars s, String name, float pct)
     //println(StarPct*100+"%"); // Checks to see if the corect star percentage is being printed
   }
 }
+
+void StarInfoBlock(Stars s, String name, float pct)
+{
+  float x,y; // store stars s x and y pos
+  x=s.x; //Stores suns x pos
+  y=s.y; // stoes suns y pos
+  StarName= name; // stores name of star
+  StarPct = pct;
+  
+  pushStyle();// this doen so the white stars in background do not have gree onlines only the box
+  
+  // draws rectange with green outline
+  noFill();//makes mbackground transparent
+  stroke(0,255,0);//Makes outlien green 
+  strokeWeight(4);// creates outlien thinkness
+  rect(1170,20,350,150); // Makes the rectangle
+ 
+  
+  // 2. Draw centered text inside it
+  fill(0, 255, 0);            // MUST call fill() because noFill() turns text invisible!
+  textSize(24);               // Sets text 
+  textAlign(LEFT);  // Anchor text from its center
+  text("Star Name: " + StarName, 1180, 50); // Center of the rect: (200, 200)
+  text("Percentage: " + nf(StarPct*100,0,2) +"%", 1180, 80); // 
+  text("Coordiantes: " + "("+x+","+y+")",1180, 110);
+  
+  popStyle();//this restores the previous settings so the white stars in background do not have green onlines only the box
+}
