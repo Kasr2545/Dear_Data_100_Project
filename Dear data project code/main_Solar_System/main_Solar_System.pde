@@ -171,3 +171,29 @@ void calculateStarPercentages()
 boolean hovering=false; //Will check ifmouse is hovering over star
 String StarName; // Will store the name of the star the mouse is hovering on
 float StarPct; // Will store the percentage value of the star
+
+// method takes in three parameters, The star object which is passed into s
+// StarName is passed into name
+// StarPct is passed into pct
+void checkHoverOnStar(Stars s, String name, float pct)
+{
+  float mx=mouseX; // Stores mouse x poistion
+  float my=mouseY; // Stores mouse y position
+
+  float x, y; // Stores the Star objects coordinates
+
+  x= s.x; // Storing the x position of star s
+  y= s.y; // Storing the y position of star s
+
+  float d = dist(x, y, mx, my); // this calculates the distance between the Stars midpoint and mouse x,y
+
+  float radius = max(s.StarDiameter/2,3); // stores the star's radius, also makes it so the the Hover radius is never smaller than 3px wide
+  if (d<=radius)
+  {
+    StarName = name;
+    StarPct= pct;
+    hovering=true; // sets hovering to true if the mouse is within the radius of the star
+    //println("Star Name: "+name); // Checks to see if the corect star name is being printed
+    //println(StarPct*100+"%"); // Checks to see if the corect star percentage is being printed
+  }
+}
