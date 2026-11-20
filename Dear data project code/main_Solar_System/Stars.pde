@@ -1,9 +1,9 @@
 class Stars{
   float decimal;       // This is used to store the deimal calculation from main
-  float diameter=1000; // This sets the max diameter for all stars
+  float maxDiameter=350; // This sets the max diameter for all stars
   float x, y;          // This is x and y coordinates for the satr
   color col;           // This is so a colour can be created and then stored
-  float StarRadius;    // This si where the actual radius of each star will be stored  
+  float StarDiameter;    // This si where the actual radius of each star will be stored  
 
   Stars(float decimal, float x, float y) {
     // 'this.' makes it so it refers to the current object instance.
@@ -12,7 +12,7 @@ class Stars{
     this.y=y;
 
     // this will dictate colour of sun based on its size
-    StarRadius = (decimal * diameter)/3;
+    StarDiameter = (decimal * maxDiameter)/2;
 
     //if statemnt to determine colour for Star object instance
     if (decimal <= 0.1)
@@ -36,15 +36,15 @@ class Stars{
     pushStyle();                               // Saves the current drawing settings
     // outer glow - It tkes the RGB values from 'col'
     fill(red(col), green(col), blue(col), 2);  // 5 makes high transparancy
-    circle(x, y, StarRadius * 2.5);            // makes it so radius is 2.5x larger than original
+    circle(x, y, StarDiameter * 2.5);            // makes it so radius is 2.5x larger than original
 
     // middle glow - It tkes the RGB values from 'col'
     fill(red(col), green(col), blue(col), 5);  // 15 makes it less transparant compared to 5
-    circle(x, y, StarRadius * 1.6);            // makes it so radius is 1.6x larger than original
+    circle(x, y, StarDiameter * 1.6);            // makes it so radius is 1.6x larger than original
 
     // inner glow - It tkes the RGB values from 'col'
     fill(red(col), green(col), blue(col), 10); // 35 makes it less transparant compared to 15
-    circle(x, y, StarRadius * 1.2);            // makes it so radius is 1.2x larger than original
+    circle(x, y, StarDiameter * 1.2);            // makes it so radius is 1.2x larger than original
     popStyle();                                // Restores any previous settings
   }
 
@@ -53,6 +53,6 @@ class Stars{
     noStroke();               // Removes any outlines
     glow();                   // Calls on the glow method
     fill(col);                // It makes the Star the colour using col from if loop
-    circle(x, y, StarRadius); // This renders the image for The star
+    circle(x, y, StarDiameter); // This renders the image for The star
   }
 }
