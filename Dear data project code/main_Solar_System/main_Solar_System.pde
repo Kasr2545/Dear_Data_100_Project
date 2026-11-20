@@ -71,6 +71,7 @@ void setup()
 
 void draw()
 {
+  background(0); //Sets background to black
   for (int i=0; i<farStarCount; i++) //goes through every farStarCount value
   {
     fill(255); //makes star white
