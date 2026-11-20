@@ -165,4 +165,9 @@ void calculateStarPercentages()
     println("Family: " + FamPct*100 + "%");
     println("Co-workers: " + CWPct*100 + "%");
     println("Lunch Staff: " + LSPct*100 + "%");
+    
 }
+
+boolean hovering=false; //Will check ifmouse is hovering over star
+String StarName; // Will store the name of the star the mouse is hovering on
+float StarPct; // Will store the percentage value of the star
