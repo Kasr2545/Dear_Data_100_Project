@@ -278,7 +278,7 @@ void calculateStarPercentages()
 
 
 
-boolean hovering=false; //Will check ifmouse is hovering over star
+
 String StarName; // Will store the name of the star the mouse is hovering on
 float StarPct; // Will store the percentage value of the star
 
@@ -302,7 +302,6 @@ void checkHoverOnStar(Stars s, String name, float pct)
   {
     StarName = name;
     StarPct= pct;
-    hovering=true; // sets hovering to true if the mouse is within the radius of the star
     //println("Star Name: "+name); // Checks to see if the corect star name is being printed
     //println(StarPct*100+"%"); // Checks to see if the corect star percentage is being printed
     StarInfoBlock(s,StarName, StarPct);// Calling the Star infro block, so it shwos the correct info for each star when hovered on
@@ -330,16 +329,16 @@ void StarInfoBlock(Stars s, String name, float pct)
   noFill();//makes mbackground transparent
   stroke(0,255,0);//Makes outlien green 
   strokeWeight(4);// creates outlien thinkness
-  rect(1170,20,350,150); // Makes the rectangle
+  rect(1130,20,350,150); // Makes the rectangle
  
   
   // 2. Draw centered text inside it
   fill(0, 255, 0);            // MUST call fill() because noFill() turns text invisible!
   textSize(24);               // Sets text 
   textAlign(LEFT);  // Anchor text from its center
-  text("Star Name: " + StarName, 1180, 50); // Center of the rect: (200, 200)
-  text("Percentage: " + nf(StarPct*100,0,2) +"%", 1180, 80); // 
-  text("Coordiantes: " + "("+x+","+y+")",1180, 110);
+  text("Star Name: " + StarName, 1140, 50); // Center of the rect: (200, 200)
+  text("Percentage: " + nf(StarPct*100,0,2) +"%", 1140, 80); // 
+  text("Coordiantes: " + "("+x+","+y+")",1140, 110);
   
   popStyle();//this restores the previous settings so the white stars in background do not have green onlines only the box
 }
