@@ -49,7 +49,7 @@ void setup()
   }
 
 
-  size(1820, 800); // sets screen size
+  size(1500, 800); // sets screen size
   noStroke(); // removes all outlines
   background(0); //makes background black for 'SPACE'
 
