@@ -135,12 +135,28 @@ Stars newPageStar=null;
 //Back button from drawPlanetPage to displayHoverStar
 float buttonXPos=10, buttonYPos=10;//the position of the buttons
 float Xwidth=135, Yheight=50;// stores the size of the button
+String selectedStarName="";//thsi will store the name of star to be used on newPlanet Page
 
 void drawPlanetPage()
 {
   newPageStar.display();//so the star can be displayed on the new page
   pushStyle();//Thsi allows us to create new style that effects everythign withing push and pop style
   
+    pushStyle();
+  // Box
+  noFill();
+  stroke(255);
+  strokeWeight(4);
+  rect(650,15,200,60);
+  
+  // star name
+  fill(255);
+  textSize(40);
+  textAlign(CENTER);
+  text(selectedStarName, width/2, 60);
+  
+  popStyle();
+
   //this makes the box
   noFill();
   stroke(0,255,0);
@@ -162,6 +178,7 @@ void mousePressed()
   if(mouseButton==LEFT && screenView==false && hoveredStar!=null)
   {
     selectedStar=hoveredStar; // This makes it so the stored star s, is the selected Star
+    selectedStarName=StarName;// sotres star name
     screenView=true; // Makes screenView true so the drawPlaentPage can be called if if staement
     newPageStar= new Stars(selectedStar.decimal, width/2, height/2); // using the constructor method We can create the star for the new page
   }
@@ -170,6 +187,7 @@ void mousePressed()
     screenView=false; // this makes it so it switches back to displayHoverStar
     selectedStar= null; // sets it to nothign
     newPageStar = null; // sets it to nothing
+    selectedStarName="";// sets it to nothing
   }
 }
 
