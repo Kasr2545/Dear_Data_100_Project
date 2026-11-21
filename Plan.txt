@@ -93,3 +93,5 @@ Main Planet Formation:
         - Position is based on the percentage value of the size. the more frequently that data value appears the colser it is to the sun. Then vice versa as well.
         - Movement Orbit speed may be based on the time. Based on which quarter of the time (12-3, 3-6, 6,9, 9-12) it lands on it dictates the orbit speed.    
 
+    ADDONS to plan:
+    - I have decided to add a text box where it shows details such as the name of star, its percentage value and Coordinates
