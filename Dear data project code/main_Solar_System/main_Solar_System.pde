@@ -85,7 +85,21 @@ void draw()
     ellipse(farStarX[i], farStarY[i], 1.5, 1.5); // creates the star using the random x and y values, with a size of 0.1 hight and width
   }
 
-  // calls the display() method for each Star object
+  hoveredStar=null; // this resets the hoveredStar to null so it can be updated each frame
+  if (screenView)
+  {
+   drawPlanetPage(); 
+  }
+  else
+  {
+    displayHoverStar();
+  }
+}
+
+//This method is call methods for displating star on screen and check if the star is hoverd on
+void displayHoverStar()
+{
+    // calls the display() method for each Star object
   // each object executes the same method using its own instance variables
   // such as its percentage and x/y coordinates.
   FriStar.display();
@@ -95,7 +109,8 @@ void draw()
   FamStar.display();
   CWStar.display();
   LSStar.display();
-  // Checks whether the mouse is hovering over each Star object
+  
+   // Checks whether the mouse is hovering over each Star object
   // Passes the Star object, its name and its percentage value
   // into the checkHoverOnStar() method.
   checkHoverOnStar(FriStar, "Friends", FriPct);
@@ -105,8 +120,13 @@ void draw()
   checkHoverOnStar(FamStar, "Family", FamPct);
   checkHoverOnStar(CWStar, "Co-workers", CWPct);
   checkHoverOnStar(LSStar, "Lunch Staff", LSPct);
-
 }
+
+void drawPlanetPage()
+{
+  fill(255); //makes text white - placeholder
+}
+
 
 //calculates the percentage value for the number of times a data point appears in the initiator column
 void calculateStarPercentages()
