@@ -69,6 +69,13 @@ void setup()
   LSStar  = new Stars(LSPct, 1400, 400);
 }
 
+
+
+//These variables are used to switch between screens
+boolean screenView=false;// this variable holds the value of which screen i am on, false= StarPage, true=planet detail
+Stars hoveredStar=null; //the star the mouse is hovering on
+Stars selectedStar=null; //stores the star that was clicked on
+
 void draw()
 {
   background(0); //Sets background to black
@@ -208,7 +215,8 @@ void checkHoverOnStar(Stars s, String name, float pct)
     //println("Star Name: "+name); // Checks to see if the corect star name is being printed
     //println(StarPct*100+"%"); // Checks to see if the corect star percentage is being printed
     StarInfoBlock(s,StarName, StarPct);// Calling the Star infro block, so it shwos the correct info for each star when hovered on
-  
+    hoveredStar=s;// this makes it so s is stored in a global variable so it can be use dby othe rmehtods
+
   }
 }
 
