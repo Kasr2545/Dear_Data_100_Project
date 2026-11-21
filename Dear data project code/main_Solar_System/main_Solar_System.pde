@@ -34,6 +34,8 @@ Stars FamStar;
 Stars CWStar;
 Stars LSStar;
 
+
+
 void setup()
 {
   // this is the data being loaded into a varibale called table
@@ -96,6 +98,8 @@ void draw()
   }
 }
 
+
+
 //This method is call methods for displating star on screen and check if the star is hoverd on
 void displayHoverStar()
 {
@@ -122,10 +126,55 @@ void displayHoverStar()
   checkHoverOnStar(LSStar, "Lunch Staff", LSPct);
 }
 
+
+
+
+// this is a new object for stars which will be printed on the drawPlanet Page
+Stars newPageStar=null; 
+
+//Back button from drawPlanetPage to displayHoverStar
+float buttonXPos=10, buttonYPos=10;//the position of the buttons
+float Xwidth=135, Yheight=50;// stores the size of the button
+
 void drawPlanetPage()
 {
-  fill(255); //makes text white - placeholder
+  newPageStar.display();//so the star can be displayed on the new page
+  pushStyle();//Thsi allows us to create new style that effects everythign withing push and pop style
+  
+  //this makes the box
+  noFill();
+  stroke(0,255,0);
+  strokeWeight(2);
+  rect(buttonXPos, buttonYPos, Xwidth, Yheight);
+  
+  //thsi out puts text
+  fill(0, 255, 0);            // MUST call fill() because noFill() turns text invisible!
+  textSize(50);               // Sets text size
+  textAlign(LEFT);  // Anchor text from left side
+  text("BACK",20,50); // Centres from x=20 and y=50
+  popStyle();
 }
+
+
+// this method will chekc to see if the star has been clicked on
+void mousePressed()
+{
+  if(mouseButton==LEFT && screenView==false && hoveredStar!=null)
+  {
+    selectedStar=hoveredStar; // This makes it so the stored star s, is the selected Star
+    screenView=true; // Makes screenView true so the drawPlaentPage can be called if if staement
+    newPageStar= new Stars(selectedStar.decimal, width/2, height/2); // using the constructor method We can create the star for the new page
+  }
+  else if(mouseButton==LEFT && screenView==true && mouseX>=buttonXPos && mouseX<=buttonXPos+Xwidth && mouseY>=buttonYPos && mouseY<=buttonYPos+Yheight)//Checks to see if mouse x is within the back button
+  {
+    screenView=false; // this makes it so it switches back to displayHoverStar
+    selectedStar= null; // sets it to nothign
+    newPageStar = null; // sets it to nothing
+  }
+}
+
+
+
 
 
 //calculates the percentage value for the number of times a data point appears in the initiator column
@@ -207,6 +256,10 @@ void calculateStarPercentages()
     
 }
 
+
+
+
+
 boolean hovering=false; //Will check ifmouse is hovering over star
 String StarName; // Will store the name of the star the mouse is hovering on
 float StarPct; // Will store the percentage value of the star
@@ -239,6 +292,11 @@ void checkHoverOnStar(Stars s, String name, float pct)
 
   }
 }
+
+
+
+
+
 
 void StarInfoBlock(Stars s, String name, float pct)
 {
