@@ -115,8 +115,8 @@ Me,H,GCC,Fam,V
 Me,H,GCC,Fri,T
 Me,H,B,fam,V
 Me,I,H,DI,V
-Me,I,B,DI,V
-Me,H,H,Fam,V
+Me,I,R,DI,V
+Me,H,R,Fam,V
 Fri,H,GCC,Fri,C
 Fam,H,GCC,Fam,V
 Me,H,GN,Fam,V
@@ -201,8 +201,8 @@ Me,U,F,LS,V
 Me,U,GCC,Fri,V
 Tut,U,T,S,V
 Me,U,B,Fri,V
-Me,I,L,DI,V
-Me,I,B,DI,V
+Me,I,R,DI,V
+Me,I,R,DI,V
 Me,H,H,Fam,V
 Fri,H,GCC,M,T
 Fam,H,GCC,M,V
@@ -225,4 +225,3 @@ Me,H,Q,Fam,C
 Me,H,GCC,Fam,V
 Fri,H,GCC,M,C
 Me,H,GCC,Fam,V
-
