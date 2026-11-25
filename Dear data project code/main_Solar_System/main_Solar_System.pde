@@ -34,6 +34,24 @@ Stars FamStar;
 Stars CWStar;
 Stars LSStar;
 
+// these are variables for the different planets
+int UCount;
+int HCount;
+int SCount;
+int ICount;
+int WCount;
+int Planets_Total_Count;
+
+//this is where the percentage value is stored
+float UPct;
+float HPct;
+float SPct;
+float IPct;
+float WPct;
+
+// This arrya stores objects called Planets in an array called planetList
+ArrayList <Planets> planetList = new ArrayList<Planets>();
+
 
 
 void setup()
