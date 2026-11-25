@@ -149,6 +149,8 @@ void displayHoverStar()
 
 // this is a new object for stars which will be printed on the drawPlanet Page
 Stars newPageStar=null; 
+// This is a new object for planets which will be printed on the drawPlanet page
+Planets newPagePlanet=null;
 
 //Back button from drawPlanetPage to displayHoverStar
 float buttonXPos=10, buttonYPos=10;//the position of the buttons
@@ -158,6 +160,8 @@ String selectedStarName="";//thsi will store the name of star to be used on newP
 void drawPlanetPage()
 {
   newPageStar.display();//so the star can be displayed on the new page
+  newPagePlanet.update(); // this will updates the planets position
+  newPagePlanet.display(newPageStar.x,newPageStar.y);
   pushStyle();//Thsi allows us to create new style that effects everythign withing push and pop style
   
     pushStyle();
@@ -199,6 +203,7 @@ void mousePressed()
     selectedStarName=StarName;// sotres star name
     screenView=true; // Makes screenView true so the drawPlaentPage can be called if if staement
     newPageStar= new Stars(selectedStar.decimal, width/2, height/2); // using the constructor method We can create the star for the new page
+    newPagePlanet= new Planets(newPageStar.StarDiameter+60, 20, 0, 0.02, (255)); // using the constructor method for planets to create planets on new star page
   }
   else if(mouseButton==LEFT && screenView==true && mouseX>=buttonXPos && mouseX<=buttonXPos+Xwidth && mouseY>=buttonYPos && mouseY<=buttonYPos+Yheight)//Checks to see if mouse x is within the back button
   {
