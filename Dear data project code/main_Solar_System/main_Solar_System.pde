@@ -80,13 +80,13 @@ void setup()
   calculateStarPercentages(); //calls on the method to calculate the percentage values for each data point
 
   // This calls the constructor method for Star and stored it in a Star object.
-  MeStar  = new Stars(MePct, 250, 400);
-  FamStar = new Stars(FamPct, 650, 400);
-  FriStar = new Stars(FriPct, 850, 400);
-  LecStar = new Stars(LecPct, 1000, 400);
-  TutStar = new Stars(TutPct, 1160, 400);
-  CWStar  = new Stars(CWPct, 1300, 400);
-  LSStar  = new Stars(LSPct, 1400, 400);
+  MeStar  = new Stars(MePct, 250, 400, "Me");
+  FamStar = new Stars(FamPct, 650, 400, "Fam");
+  FriStar = new Stars(FriPct, 850, 400, "Fri");
+  LecStar = new Stars(LecPct, 1000, 400, "Lec");
+  TutStar = new Stars(TutPct, 1160, 400, "Tut");
+  CWStar  = new Stars(CWPct, 1300, 400, "CW");
+  LSStar  = new Stars(LSPct, 1400, 400, "LS");
 }
 
 
@@ -202,7 +202,8 @@ void mousePressed()
     selectedStar=hoveredStar; // This makes it so the stored star s, is the selected Star
     selectedStarName=StarName;// sotres star name
     screenView=true; // Makes screenView true so the drawPlaentPage can be called if if staement
-    newPageStar= new Stars(selectedStar.decimal, width/2, height/2); // using the constructor method We can create the star for the new page
+    newPageStar= new Stars(selectedStar.decimal, width/2, height/2,selectedStar.tableCode); // using the constructor method We can create the star for the new page
+    //println(selectedStar.tableCode); // this si a test line to see if the correct table code is being printed
     newPagePlanet= new Planets(newPageStar.StarDiameter+60, 20, 0, 0.02, (255)); // using the constructor method for planets to create planets on new star page
   }
   else if(mouseButton==LEFT && screenView==true && mouseX>=buttonXPos && mouseX<=buttonXPos+Xwidth && mouseY>=buttonYPos && mouseY<=buttonYPos+Yheight)//Checks to see if mouse x is within the back button

@@ -4,12 +4,19 @@ class Stars{
   float x, y;          // This is x and y coordinates for the satr
   color col;           // This is so a colour can be created and then stored
   float StarDiameter;    // This si where the actual radius of each star will be stored  
+  String tableCode; // This is a unique identifier, used to link row specific plents with the star
 
-  Stars(float decimal, float x, float y) {
+
+  // This is constructor method for Star
+  // It takes in 4 float parameter, Decimal(the decimal percentage value from main)
+  // x and y which are the positions of the star in space
+  // tableCode which is a unique identifier for linking planets with the star
+  Stars(float decimal, float x, float y, String tableCode) {
     // 'this.' makes it so it refers to the current object instance.
     this.decimal=decimal;
     this.x=x;
     this.y=y;
+    this.tableCode=tableCode;
 
     // this will dictate colour of sun based on its size
     StarDiameter = (decimal * maxDiameter);
